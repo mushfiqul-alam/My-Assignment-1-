@@ -115,5 +115,29 @@ border-radius: 16px;
     
 }
 
+      /* ......-My Inspiration Section-......... */
 
+.my-inspire{
+    margin: 80px 80px;
+    max-width: 1140px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+    
  
+
+.my-ins-tittle{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+
+}
+.my-ins-dres{
+    font-size: 16px;
+}
+.iframe{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+}
