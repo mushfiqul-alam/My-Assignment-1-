@@ -120,8 +120,11 @@ border-radius: 16px;
 .my-inspire{
     margin: 80px 80px;
     max-width: 1140px;
-    text-align: center;
+    
     /* border: 2px solid red; */
+}
+.my-ins-greetings{
+    text-align: center;
 }
     
  
