@@ -1,44 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
 }
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 /* -------opening-banner-part------ */
-.banner-container{
+.banner-container {
     max-width: 1440px;
     height: 650px;
-   /* border: 2px solid red; */
-   background-image:url(../assets/Hero-bg.png);
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- 
-   
+    /* border: 2px solid red; */
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
 }
-.banner-tittle{
+
+.banner-tittle {
     font-size: 40px;
     font-weight: 600px;
     color: rgb(13, 19, 33);
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.banner-drescription{
+
+.banner-drescription {
     font-size: 12px;
-    font-weight:3500px;
+    font-weight: 3500px;
     color: #0D1321;
     margin-bottom: 25px;
 
 }
-.ban-div{
+
+.ban-div {
     text-align: center;
     padding-bottom: 15px;
-  
+
 }
+
 .btn{
     font-size: 18px;
     font-weight: 600px;
@@ -47,3 +54,66 @@ body{
     background-color: #0D1321;
     border-radius: 6px;
 }
+
+/* -----2nd web dev aim banner-----  */
+
+.why-dev{
+    margin: 80px 80px;
+background-color:#FAFAFB;
+max-width: 1140px;
+padding: 30px 60px;
+border-radius: 16px;
+}
+.why-dev-tittle{
+    margin-bottom: 15px;
+    font-size: 34px;
+    font-weight: 800px;
+}
+.why-dev-greatings{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.code{
+    display: flex;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    border-radius: 16px;
+}
+.i-will{
+    display: flex;
+    justify-content: space-around;
+     padding:20px; 
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    border-radius: 16px;
+
+}
+.i-do{
+    display: flex;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    border-radius: 16px;
+}
+/* ....shared style...... */
+.cmn-aim{
+   margin-top: 20px;
+   margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700px;
+}
+.cmn-p{
+    padding: 20px;
+    font-weight: 16px;
+}
+.why-button{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 10px;
+    
+}
+
+
+ 
