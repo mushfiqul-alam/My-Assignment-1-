@@ -144,3 +144,58 @@ border-radius: 16px;
     /* border: 2px solid red; */
     border-radius: 16px;
 }
+
+/* ....-My Current Target Section-..... */
+.my-target{
+    max-width: 1140px;
+    margin: 80px 80px;
+    /* border: 2px solid red; */
+}
+.text-center{
+    text-align: center;
+}
+.my-tar-tittle{
+    font-size: 32px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+}
+.my-tar-dres{
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    /* border: 2px solid yellow; */
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card-tittle{
+    font-size: 24px;
+    font-weight: 800px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.card-drescription{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+.learn{
+    font-size: 16px;
+    font-weight: 700px;
+    color: rgba(13, 19, 33, 1);
+}
+.html{
+    background-color: #FFF6F4;
+
+}
+.css{
+background-color: #F2F6FE;
+}
+.java{
+background-color: #FFFDF2;
+}
