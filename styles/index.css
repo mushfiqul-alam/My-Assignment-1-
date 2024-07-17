@@ -46,7 +46,7 @@ body {
 
 }
 
-.btn{
+.btn {
     font-size: 18px;
     font-weight: 600px;
     color: #FFFFFF;
@@ -57,88 +57,99 @@ body {
 
 /* -----2nd web dev aim banner-----  */
 
-.why-dev{
+.why-dev {
     margin: 80px 80px;
-background-color:#FAFAFB;
-max-width: 1140px;
-padding: 30px 60px;
-border-radius: 16px;
+    background-color: #FAFAFB;
+    max-width: 1140px;
+    padding: 30px 60px;
+    border-radius: 16px;
 }
-.why-dev-tittle{
+
+.why-dev-tittle {
     margin-bottom: 15px;
     font-size: 34px;
     font-weight: 800px;
 }
-.why-dev-greatings{
+
+.why-dev-greatings {
     text-align: center;
     margin-bottom: 40px;
 }
-.code{
+
+.code {
     display: flex;
     padding: 20px;
     background-color: #FFFFFF;
     margin-bottom: 40px;
     border-radius: 16px;
 }
-.i-will{
+
+.i-will {
     display: flex;
     justify-content: space-around;
-     padding:20px; 
+    padding: 20px;
     background-color: #FFFFFF;
     margin-bottom: 40px;
     border-radius: 16px;
 
 }
-.i-do{
+
+.i-do {
     display: flex;
     padding: 20px;
     background-color: #FFFFFF;
     margin-bottom: 40px;
     border-radius: 16px;
 }
+
 /* ....shared style...... */
-.cmn-aim{
-   margin-top: 20px;
-   margin-left: 20px;
+.cmn-aim {
+    margin-top: 20px;
+    margin-left: 20px;
     font-size: 24px;
     font-weight: 700px;
 }
-.cmn-p{
+
+.cmn-p {
     padding: 20px;
     font-weight: 16px;
 }
-.why-button{
+
+.why-button {
     margin-left: 20px;
     font-size: 20px;
     font-weight: 600px;
     padding: 10px;
-    
+
 }
 
-      /* ......-My Inspiration Section-......... */
+/* ......-My Inspiration Section-......... */
 
-.my-inspire{
+.my-inspire {
     margin: 80px 80px;
     max-width: 1140px;
-    
+
     /* border: 2px solid red; */
 }
-.my-ins-greetings{
+
+.my-ins-greetings {
     text-align: center;
 }
-    
- 
 
-.my-ins-tittle{
+
+
+.my-ins-tittle {
     font-size: 32px;
     font-weight: 800;
     padding-bottom: 20px;
 
 }
-.my-ins-dres{
+
+.my-ins-dres {
     font-size: 16px;
 }
-.iframe{
+
+.iframe {
     margin-top: 60px;
     margin-bottom: 50px;
     /* border: 2px solid red; */
@@ -146,61 +157,73 @@ border-radius: 16px;
 }
 
 /* ....-My Current Target Section-..... */
-.my-target{
+.my-target {
     max-width: 1140px;
     margin: 80px 80px;
     /* border: 2px solid red; */
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.my-tar-tittle{
+
+.my-tar-tittle {
     font-size: 32px;
     font-weight: 800px;
     margin-bottom: 24px;
 }
-.my-tar-dres{
+
+.my-tar-dres {
     font-size: 16px;
     margin-bottom: 48px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     gap: 24px;
 }
-.card{
+
+.card {
     /* border: 2px solid yellow; */
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.card-tittle{
+
+.card-tittle {
     font-size: 24px;
     font-weight: 800px;
     margin-top: 24px;
     margin-bottom: 8px;
 }
-.card-drescription{
+
+.card-drescription {
     font-size: 16px;
     font-weight: 400px;
     margin-bottom: 24px;
 }
-.learn{
+
+.learn {
     font-size: 16px;
     font-weight: 700px;
     color: rgba(13, 19, 33, 1);
 }
-.html{
+
+.html {
     background-color: #FFF6F4;
 
 }
-.css{
-background-color: #F2F6FE;
+
+.css {
+    background-color: #F2F6FE;
 }
-.java{
-background-color: #FFFDF2;
+
+.java {
+    background-color: #FFFDF2;
 }
+
 /* ......-i need support section-.... */
-.i-need-support{
+.i-need-support {
     max-width: 1140px;
     height: 313px;
     margin: 80px 80px;
@@ -213,28 +236,44 @@ background-color: #FFFDF2;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ins-tittle{
+
+.ins-tittle {
     font-size: 32px;
     font-weight: 700;
     color: #FFFFFF;
 }
-.ins-drescription{
+
+.ins-drescription {
     font-size: 16px;
     font-weight: 400px;
     color: #FFFFFF;
     padding: 24px;
 }
-.input-txt{
+
+.input-txt {
     width: 548px;
     height: 40px;
     border: none;
     border-radius: 8px;
     padding: 10px;
 }
-.input-submit{
+
+.input-submit {
     height: 40px;
     border: none;
     border-radius: 6px;
     padding: 10px;
 }
- 
+
+/* .....footer...... */
+.footer-container {
+    max-width: 1140px;
+    height: 100px;
+    margin: 80px 80px;
+    padding: 20px;
+    background-color: #F7F8F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
