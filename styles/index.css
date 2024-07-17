@@ -199,3 +199,42 @@ background-color: #F2F6FE;
 .java{
 background-color: #FFFDF2;
 }
+/* ......-i need support section-.... */
+.i-need-support{
+    max-width: 1140px;
+    height: 313px;
+    margin: 80px 80px;
+    padding: 64px 48px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ins-tittle{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.ins-drescription{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    padding: 24px;
+}
+.input-txt{
+    width: 548px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+.input-submit{
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+ 
